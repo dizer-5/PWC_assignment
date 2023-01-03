@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>Places Search Box</title>
+    <script src="JS.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="CSS.css" />
+    <script type="module" src="./index.js"></script>
+  </head>
+  <body>
+    <input
+      id="pac-input"
+      class="controls"
+      type="text"
+      placeholder="Search Box"
+    />
+    <div id="map"></div>
+
+    
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhSDzosTrSl73q5FcQUb9OkRAFNelnl_8&callback=initAutocomplete&libraries=places&v=weekly"
+      defer
+    ></script>
+    <div id="table">
+        <div id="top">  
+            <h2>Abdelslam Map's</h2>
+        </div>
+    </div>
+  </body>
+</html>
